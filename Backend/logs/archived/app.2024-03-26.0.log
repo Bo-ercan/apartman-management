@@ -1,0 +1,677 @@
+2024-03-26 14:04:34,239 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 21100 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 14:04:34,248 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 14:04:34,249 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 14:04:42,549 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 8.644 seconds (process running for 16.16)
+2024-03-26 14:04:51,562 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27624 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 14:04:51,566 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 14:04:51,568 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 14:05:00,163 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 9.114 seconds (process running for 10.424)
+2024-03-26 14:05:01,544 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-26 14:05:01,544 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-26 14:19:28,044 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 14:19:28,044 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-26 15:03:54,393 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27624 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:03:54,394 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:03:54,394 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 15:03:55,761 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.404 seconds (process running for 3546.023)
+2024-03-26 15:06:35,579 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27624 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:06:35,579 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:06:35,580 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 15:06:36,448 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.893 seconds (process running for 3706.709)
+2024-03-26 15:08:00,590 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14180 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:08:00,591 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:08:00,592 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 15:08:01,870 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-03-26 15:21:20,439 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27392 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:21:20,441 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:21:20,441 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-26 15:21:21,801 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-03-26 15:36:33,523 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 25980 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:36:33,524 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:36:33,525 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 15:36:37,208 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.023 seconds (process running for 5.237)
+2024-03-26 15:56:31,817 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 23080 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:56:31,819 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:56:31,820 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 15:56:35,787 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.298 seconds (process running for 5.227)
+2024-03-26 15:58:12,136 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 20664 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:58:12,137 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:58:12,138 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 15:58:16,224 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.455 seconds (process running for 5.324)
+2024-03-26 15:58:25,236 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.] with root cause
+java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.
+	at com.example.service.impl.UserIMPL.addUser(UserIMPL.java:32)
+	at com.example.controller.UserController.saveUser(UserController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-26 15:59:07,322 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 28664 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 15:59:07,323 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 15:59:07,324 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 15:59:12,256 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.45 seconds (process running for 6.805)
+2024-03-26 16:00:14,781 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-26 16:00:14,781 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-26 16:00:23,329 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-26 16:00:23,330 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-26 16:14:29,831 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-26 16:14:29,831 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-26 16:16:12,180 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-26 16:16:12,180 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:27:38,371 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-26 16:27:38,371 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-26 16:32:47,369 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:32:47,369 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-26 16:35:35,551 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 16:35:35,551 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-26 16:35:55,319 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-26 16:35:55,320 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:36:33,611 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-26 16:36:33,611 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-26 16:36:54,996 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.] with root cause
+java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.
+	at com.example.service.impl.UserIMPL.addUser(UserIMPL.java:32)
+	at com.example.controller.UserController.saveUser(UserController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-26 16:37:06,881 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-26 16:37:06,881 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:18,829 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:18,828 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-26 16:37:45,262 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:45,262 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-26 16:37:53,796 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:54,203 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-26 16:37:54,735 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 3 için daireler bulundu.
+2024-03-26 16:37:55,497 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 6 için daireler bulundu.
+2024-03-26 16:37:56,448 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:57,252 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:57,252 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-26 16:37:57,505 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 3 için daireler bulundu.
+2024-03-26 16:37:57,505 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:57,673 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 4 için daireler bulundu.
+2024-03-26 16:37:57,673 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:57,906 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 5 için daireler bulundu.
+2024-03-26 16:37:57,906 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:58,237 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-26 16:37:58,237 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 6 için daireler bulundu.
+2024-03-26 16:37:58,562 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 6 için daireler bulundu.
+2024-03-26 16:37:58,562 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:00,331 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:02,300 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-26 16:38:02,300 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:02,462 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 3 için daireler bulundu.
+2024-03-26 16:38:02,462 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:02,628 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:02,628 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 4 için daireler bulundu.
+2024-03-26 16:38:02,785 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:02,785 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 5 için daireler bulundu.
+2024-03-26 16:38:02,940 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:02,940 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:03,119 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:03,119 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:03,300 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:03,300 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:03,443 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:03,443 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:03,827 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:08,120 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:08,270 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:08,432 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:10,089 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:10,090 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:10,234 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 6 için daireler bulundu.
+2024-03-26 16:38:10,234 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:11,453 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 5 için daireler bulundu.
+2024-03-26 16:38:11,609 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 4 için daireler bulundu.
+2024-03-26 16:38:11,794 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 3 için daireler bulundu.
+2024-03-26 16:38:11,944 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-26 16:38:12,126 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:13,515 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:13,738 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 16:38:13,884 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-26 17:04:01,873 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:04:01,875 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:04:01,875 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:04:06,522 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.999 seconds (process running for 6.028)
+2024-03-26 17:04:55,048 INFO c.e.c.FlatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-26 17:05:54,990 INFO c.e.c.FlatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-26 17:05:55,234 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:05:55,234 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:05:55,234 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:05:56,286 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.088 seconds (process running for 115.793)
+2024-03-26 17:05:57,829 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:05:57,829 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:05:57,829 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:05:58,681 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.874 seconds (process running for 118.187)
+2024-03-26 17:05:58,819 INFO c.e.c.FlatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-26 17:06:00,798 INFO c.e.c.FlatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-26 17:07:39,037 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:07:39,037 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:07:39,037 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:07:39,586 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:07:52,379 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:07:52,379 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:07:52,379 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:07:53,433 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.087 seconds (process running for 232.939)
+2024-03-26 17:07:54,949 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:07:54,949 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:07:54,949 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:07:55,707 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.781 seconds (process running for 235.214)
+2024-03-26 17:08:30,310 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:08:30,310 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:08:30,310 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:08:31,245 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.962 seconds (process running for 270.751)
+2024-03-26 17:08:57,542 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:08:57,543 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:08:57,543 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:08:57,928 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:11:03,147 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:11:03,148 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:11:03,148 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:11:03,698 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:11:05,174 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:11:05,175 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:11:05,175 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:11:05,579 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:11:49,440 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:11:49,440 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:11:49,440 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:11:50,520 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.114 seconds (process running for 470.026)
+2024-03-26 17:11:52,042 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:11:52,042 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:11:52,042 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:11:52,447 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:12:00,505 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:12:00,506 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:12:00,506 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:12:00,945 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:12:16,236 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:12:16,236 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:12:16,236 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:12:16,673 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:12:25,401 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:12:25,401 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:12:25,401 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:12:25,878 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:12:27,347 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:12:27,347 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:12:27,347 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:12:27,730 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:13:55,392 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:13:55,392 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:13:55,392 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:13:55,936 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:16:18,761 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:16:18,762 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:16:18,762 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:16:20,077 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.354 seconds (process running for 739.584)
+2024-03-26 17:18:46,892 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27720 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:18:46,892 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:18:46,892 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:18:47,764 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.897 seconds (process running for 887.271)
+2024-03-26 17:18:50,988 INFO c.e.c.FlatController [http-nio-8080-exec-1] Daire bulundu ID: 84
+2024-03-26 17:19:01,694 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27988 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:19:01,696 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:19:01,696 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:19:05,625 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.298 seconds (process running for 5.198)
+2024-03-26 17:19:08,458 INFO c.e.c.FlatController [http-nio-8080-exec-1] Daire bulundu ID: 84
+2024-03-26 17:19:13,293 WARN c.e.c.FlatController [http-nio-8080-exec-4] Daire bulunamadi ID: 89
+2024-03-26 17:20:59,872 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27988 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:20:59,872 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:20:59,872 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:21:00,384 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:21:55,970 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27988 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:21:55,970 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:21:55,970 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:21:56,430 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-26 17:22:42,706 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27988 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:22:42,707 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:22:42,707 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:22:43,675 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.006 seconds (process running for 223.247)
+2024-03-26 17:22:55,316 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 2832 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:22:55,318 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:22:55,318 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-26 17:22:59,988 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.033 seconds (process running for 5.983)
+2024-03-26 17:23:19,909 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-26 17:23:19,909 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-26 17:23:36,909 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-26 17:23:36,909 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-26 17:23:49,649 INFO c.e.c.FlatController [http-nio-8080-exec-9] Flat ID: 86olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-26 17:23:49,649 ERROR c.e.c.FlatController [http-nio-8080-exec-9] Daire kaydedilemedi
+java.lang.NullPointerException: Cannot invoke "com.example.service.EmailSenderServiceHTML.sendEmailWithTemplate(String, String, String)" because "this.senderServiceHTML" is null
+	at com.example.service.impl.FlatImpl.createFlat(FlatImpl.java:72)
+	at com.example.controller.FlatController.createFlat(FlatController.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-26 17:23:49,653 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Daire kaydedilemedi] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.service.EmailSenderServiceHTML.sendEmailWithTemplate(String, String, String)" because "this.senderServiceHTML" is null
+	at com.example.service.impl.FlatImpl.createFlat(FlatImpl.java:72)
+	at com.example.controller.FlatController.createFlat(FlatController.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-26 17:25:10,688 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 2832 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-26 17:25:10,688 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-26 17:25:10,688 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"

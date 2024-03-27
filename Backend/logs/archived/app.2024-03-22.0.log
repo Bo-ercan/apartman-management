@@ -1,0 +1,113 @@
+2024-03-22 08:56:11,818 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 20048 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-22 08:56:11,823 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-22 08:56:11,824 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-22 08:56:16,516 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.128 seconds (process running for 6.401)
+2024-03-22 08:57:35,061 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:37,229 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:38,217 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:38,765 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:43,200 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:43,802 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:46,281 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:46,744 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-22 08:57:47,242 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 09:02:02,498 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 09:02:03,950 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 09:02:58,458 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 09:03:01,062 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 09:03:02,223 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 09:03:03,163 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 09:03:03,714 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 09:03:04,150 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-22 09:03:04,669 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:07,758 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:08,471 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:10,590 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:11,606 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:12,271 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:12,807 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:13,840 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:14,387 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:14,949 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 09:04:15,486 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-22 09:05:17,838 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 09:05:18,410 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 09:05:20,120 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 09:05:20,929 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 09:05:21,597 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 09:05:23,380 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:21,603 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:49,645 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:50,037 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:50,329 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:50,598 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:57,118 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 09:21:57,667 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 09:23:06,557 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 09:23:08,055 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-22 09:23:08,740 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 09:23:32,408 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-22 09:23:33,770 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 09:23:51,086 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 09:24:09,790 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 09:24:29,965 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 10:58:14,833 INFO c.e.c.flatController [http-nio-8080-exec-9] Daire ID: 36 başarıyla silindi.
+2024-03-22 10:58:20,661 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire ID: 37 başarıyla silindi.
+2024-03-22 10:58:27,499 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 11:00:45,354 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 11:00:46,349 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 11:00:47,459 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 34
+2024-03-22 11:00:50,956 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 11:00:53,378 INFO c.e.c.flatController [http-nio-8080-exec-9] Daire ID: 42 başarıyla silindi.
+2024-03-22 11:00:54,763 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-22 11:01:42,105 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 11:02:09,368 INFO c.e.c.flatController [http-nio-8080-exec-7] Flat ID: 43olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-22 11:02:11,245 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 11:02:18,910 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 43
+2024-03-22 11:02:21,669 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 11:03:00,862 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 11:12:12,415 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 18376 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-22 11:12:12,417 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-22 11:12:12,418 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-22 11:12:16,648 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.589 seconds (process running for 8.993)
+2024-03-22 11:12:27,953 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 11:13:00,144 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 11:13:09,127 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-22 11:13:28,701 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 11:14:39,796 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 11:15:03,241 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 34
+2024-03-22 11:15:42,511 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 11:15:44,397 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire bulundu ID: 40
+2024-03-22 11:15:45,555 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 40
+2024-03-22 11:15:51,253 INFO c.e.c.flatController [http-nio-8080-exec-4] Flat with ID 40 updated successfully
+2024-03-22 11:15:52,778 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-22 11:20:34,572 INFO c.e.c.flatController [http-nio-8080-exec-7] Flat ID: 44olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-22 11:20:36,197 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 11:22:53,899 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 11:23:16,769 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 11:26:55,511 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 7972 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-22 11:26:55,513 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-22 11:26:55,513 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-22 11:27:01,495 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 6.264 seconds (process running for 8.804)
+2024-03-22 11:27:52,319 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 22576 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-22 11:27:52,321 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-22 11:27:52,322 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-22 11:27:59,382 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 7.299 seconds (process running for 8.791)
+2024-03-22 11:28:54,447 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 25964 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-22 11:28:54,448 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-22 11:28:54,449 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-22 11:29:01,070 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 6.883 seconds (process running for 8.402)
+2024-03-22 11:29:46,231 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-22 11:29:51,359 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-22 11:30:24,639 INFO c.e.c.flatController [http-nio-8080-exec-7] Flat ID: 45olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-22 11:30:26,178 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-22 11:30:41,370 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 11:30:43,773 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-22 11:30:44,700 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-22 11:30:47,866 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-22 11:33:02,866 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire ID: 44 başarıyla silindi.
+2024-03-22 11:33:02,984 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-22 11:33:03,627 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire ID: 45 başarıyla silindi.
+2024-03-22 11:33:04,080 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-22 11:33:05,230 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire ID: 43 başarıyla silindi.
+2024-03-22 11:33:05,360 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.

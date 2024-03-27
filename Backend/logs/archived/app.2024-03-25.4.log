@@ -1,0 +1,271 @@
+2024-03-25 01:15:31,609 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.654 seconds (process running for 6.859)
+2024-03-25 01:15:54,587 WARN c.e.c.flatController [http-nio-8080-exec-1] Daire bulunamadi ID: 28
+2024-03-25 01:18:14,729 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 24352 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 01:18:14,731 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 01:18:14,732 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 01:18:20,857 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 6.686 seconds (process running for 8.543)
+2024-03-25 01:23:02,569 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 24140 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 01:23:02,572 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 01:23:02,573 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 01:23:07,992 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.894 seconds (process running for 7.157)
+2024-03-25 01:28:14,136 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 6708 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 01:28:14,139 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 01:28:14,140 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 01:28:21,532 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 7.721 seconds (process running for 9.598)
+2024-03-25 01:30:04,445 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 14172 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 01:30:04,448 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 01:30:04,448 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 01:30:12,849 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 8.713 seconds (process running for 10.591)
+2024-03-25 01:30:38,773 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 22956 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 01:30:38,776 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 01:30:38,778 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 01:30:44,065 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.775 seconds (process running for 7.04)
+2024-03-25 01:35:16,305 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-25 01:35:16,305 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 01:37:28,880 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 22956 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 01:37:28,881 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 01:37:28,881 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 01:37:30,354 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.515 seconds (process running for 413.328)
+2024-03-25 01:38:44,066 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.] with root cause
+java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.
+	at com.example.service.impl.UserIMPL.addUser(UserIMPL.java:31)
+	at com.example.controller.UserController.saveUser(UserController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-25 01:38:53,687 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-25 01:38:53,688 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-25 01:39:37,633 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 01:39:38,603 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-25 01:39:40,074 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 3 için daireler bulundu.
+2024-03-25 01:39:41,471 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 6 için daireler bulundu.
+2024-03-25 13:01:04,812 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-25 13:01:04,812 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 13:02:05,971 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:05,971 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 2 için daireler bulundu.
+2024-03-25 13:02:06,358 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 3 için daireler bulundu.
+2024-03-25 13:02:06,358 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:06,708 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:06,708 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 4 için daireler bulundu.
+2024-03-25 13:02:07,053 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 5 için daireler bulundu.
+2024-03-25 13:02:07,053 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:07,571 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:07,571 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 6 için daireler bulundu.
+2024-03-25 13:02:07,986 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:07,986 WARN c.e.c.flatController [http-nio-8080-exec-9] Sayfa 7 için daire bulunamadı.
+2024-03-25 13:02:08,663 WARN c.e.c.flatController [http-nio-8080-exec-10] Sayfa 8 için daire bulunamadı.
+2024-03-25 13:02:08,664 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:10,844 WARN c.e.c.flatController [http-nio-8080-exec-2] Sayfa 7 için daire bulunamadı.
+2024-03-25 13:02:11,051 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 6 için daireler bulundu.
+2024-03-25 13:02:11,205 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 5 için daireler bulundu.
+2024-03-25 13:02:11,375 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 4 için daireler bulundu.
+2024-03-25 13:02:11,588 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 3 için daireler bulundu.
+2024-03-25 13:02:11,881 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-25 13:02:12,233 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:14,100 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:14,100 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 2 için daireler bulundu.
+2024-03-25 13:02:14,560 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:14,560 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 3 için daireler bulundu.
+2024-03-25 13:02:15,025 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:15,026 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 4 için daireler bulundu.
+2024-03-25 13:02:15,561 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 5 için daireler bulundu.
+2024-03-25 13:02:15,561 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:16,111 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:16,111 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 6 için daireler bulundu.
+2024-03-25 13:02:25,687 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 5 için daireler bulundu.
+2024-03-25 13:02:26,036 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 4 için daireler bulundu.
+2024-03-25 13:02:26,192 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 3 için daireler bulundu.
+2024-03-25 13:02:26,385 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-25 13:02:26,531 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:27,542 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:27,713 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-25 13:02:29,007 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 6 için daireler bulundu.
+2024-03-25 13:02:30,409 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 6 için daireler bulundu.
+2024-03-25 13:02:30,549 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 6 için daireler bulundu.
+2024-03-25 13:04:05,178 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-25 13:04:05,179 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-25 13:04:05,850 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-25 13:04:05,850 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 13:04:06,793 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 6 için daireler bulundu.
+2024-03-25 13:04:07,443 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-25 13:04:07,443 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 6 için daireler bulundu.
+2024-03-25 13:04:08,133 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 13:04:08,133 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 6 için daireler bulundu.
+2024-03-25 13:04:09,252 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 6 için daireler bulundu.
+2024-03-25 13:04:09,252 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 13:04:09,408 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 6 için daireler bulundu.
+2024-03-25 13:04:09,410 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-25 13:56:51,896 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 24924 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-25 13:56:51,898 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-25 13:56:51,898 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-25 13:56:56,587 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.055 seconds (process running for 8.755)
+2024-03-25 13:57:12,950 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 13:57:12,950 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-25 13:57:25,578 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-25 13:57:25,578 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 13:57:26,848 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 48
+2024-03-25 13:59:57,136 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 48
+2024-03-25 14:00:02,921 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 48
+2024-03-25 14:00:04,778 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-25 14:00:04,778 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-25 14:00:26,396 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-25 14:00:26,396 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-25 14:00:34,464 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-25 14:00:34,464 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 14:00:35,936 INFO c.e.c.flatController [http-nio-8080-exec-10] Daire bulundu ID: 48
+2024-03-25 14:00:40,389 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-25 14:00:40,390 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 14:07:26,962 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-25 14:07:26,962 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-25 14:43:35,543 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-25 14:43:35,543 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-25 14:43:50,488 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-25 14:43:50,488 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 14:49:32,934 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-25 14:49:32,935 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 15:03:32,764 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-25 15:03:32,764 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 15:03:37,334 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-25 15:03:37,334 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-25 15:03:44,113 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-25 15:03:44,113 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-25 15:03:45,259 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 48
+2024-03-25 15:03:46,854 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 15:03:46,854 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-25 15:03:50,027 INFO c.e.c.flatController [http-nio-8080-exec-8] Daire bulundu ID: 48
+2024-03-25 15:03:55,017 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 48
+2024-03-25 15:04:38,582 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-25 15:04:38,583 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 15:04:41,110 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.] with root cause
+java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.
+	at com.example.service.impl.UserIMPL.addUser(UserIMPL.java:31)
+	at com.example.controller.UserController.saveUser(UserController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:10:31,917 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-25 15:10:31,917 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-25 15:10:38,559 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-25 15:10:38,559 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-25 16:28:21,441 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-25 16:28:21,441 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-25 16:39:08,362 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 16:39:08,362 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 16:53:57,500 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-25 16:53:57,500 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-25 16:56:59,811 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 16:56:59,811 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-25 16:59:49,971 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-25 16:59:49,971 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-25 17:06:19,066 INFO c.e.c.flatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-25 17:06:19,066 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-25 17:06:24,516 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 17:06:24,516 INFO c.e.c.flatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-25 17:06:27,262 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 48
+2024-03-25 17:06:30,614 INFO c.e.c.flatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-25 17:06:30,614 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-25 17:06:41,945 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-25 17:06:41,945 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-25 17:06:51,370 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-25 17:06:51,371 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-25 17:06:52,582 INFO c.e.c.flatController [http-nio-8080-exec-10] Daire bulundu ID: 48
+2024-03-25 17:07:00,851 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 48
+2024-03-25 17:07:02,525 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-25 17:07:02,525 INFO c.e.c.flatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-25 17:07:11,537 INFO c.e.c.flatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-25 17:07:11,537 INFO c.e.c.flatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-25 17:07:12,394 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 48
+2024-03-25 17:07:13,984 INFO c.e.c.flatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-25 17:07:13,984 INFO c.e.c.flatController [http-nio-8080-exec-8] Sayfa 2 için daireler bulundu.
+2024-03-25 17:07:28,216 INFO c.e.c.flatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-25 17:07:28,216 INFO c.e.c.flatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.

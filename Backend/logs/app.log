@@ -1,0 +1,342 @@
+2024-03-27 02:40:53,753 ERROR c.z.h.HikariConfig [restartedMain] Failed to load driver class com.mysql.cj.jdbc.Driver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b
+2024-03-27 02:40:53,805 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.example.ApartmanProjectApplication.main(ApartmanProjectApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 38 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:488)
+	at org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperty.set(DataSourceBuilder.java:479)
+	at org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperties.set(DataSourceBuilder.java:373)
+	at org.springframework.boot.jdbc.DataSourceBuilder.build(DataSourceBuilder.java:183)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:48)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:90)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 39 common frames omitted
+2024-03-27 02:47:25,201 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 4600 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 02:47:25,203 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 02:47:25,203 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 02:47:26,489 ERROR c.z.h.HikariConfig [restartedMain] Failed to load driver class com.mysql.cj.jdbc.Driver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b
+2024-03-27 02:47:26,521 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:548)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.example.ApartmanProjectApplication.main(ApartmanProjectApplication.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 38 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:488)
+	at org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperty.set(DataSourceBuilder.java:479)
+	at org.springframework.boot.jdbc.DataSourceBuilder$MappedDataSourceProperties.set(DataSourceBuilder.java:373)
+	at org.springframework.boot.jdbc.DataSourceBuilder.build(DataSourceBuilder.java:183)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:48)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:90)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 39 common frames omitted
+2024-03-27 02:48:29,788 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 19516 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 02:48:29,789 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 02:48:29,790 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 02:48:33,617 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.207 seconds (process running for 5.088)
+2024-03-27 02:48:48,555 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 19516 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 02:48:48,555 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 02:48:48,555 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 02:48:50,061 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.554 seconds (process running for 21.533)
+2024-03-27 02:48:51,570 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 19516 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 02:48:51,570 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 02:48:51,570 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 02:48:52,457 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.912 seconds (process running for 23.929)
+2024-03-27 02:50:15,104 WARN c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daire bulunamadı.
+2024-03-27 02:50:15,108 WARN c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:50:29,156 INFO c.e.c.FlatController [http-nio-8080-exec-5] Flat ID: 1olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 02:50:31,283 WARN c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:50:31,286 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 02:51:14,330 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-27 02:51:14,330 WARN c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:51:24,717 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-27 02:51:24,718 WARN c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:51:51,732 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 12656 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 02:51:51,734 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 02:51:51,735 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 02:51:55,612 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.2 seconds (process running for 5.075)
+2024-03-27 02:51:55,920 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-27 02:51:55,920 WARN c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:51:57,212 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 02:51:57,212 WARN c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:52:02,618 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-27 02:52:02,619 WARN c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daire bulunamadı.
+2024-03-27 02:52:36,723 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-27 02:52:36,724 WARN c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:08:50,137 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-27 03:08:50,137 WARN c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:09:07,761 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-27 03:09:07,762 WARN c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:32:44,251 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-27 03:32:44,251 WARN c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:32:46,014 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-27 03:32:46,015 WARN c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:32:52,882 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:32:52,883 WARN c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:32:55,429 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-27 03:32:55,430 WARN c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:32:59,525 INFO c.e.c.FlatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-27 03:33:47,903 INFO c.e.c.FlatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-27 03:34:17,961 INFO c.e.c.FlatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-27 03:34:48,972 INFO c.e.c.FlatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-27 03:34:56,300 INFO c.e.c.FlatController [http-nio-8080-exec-8] Flat ID: 2olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 03:35:03,846 INFO c.e.c.FlatController [http-nio-8080-exec-7] Flat ID: 3olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 03:35:08,753 INFO c.e.c.FlatController [http-nio-8080-exec-9] Flat ID: 4olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 03:35:12,903 INFO c.e.c.FlatController [http-nio-8080-exec-2] Flat ID: 5olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 03:35:15,598 INFO c.e.c.FlatController [http-nio-8080-exec-10] Flat ID: 6olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 03:35:18,799 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-27 03:35:18,802 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-27 03:35:20,294 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-27 03:35:21,036 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-27 03:42:15,732 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-27 03:42:15,735 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-27 03:42:16,784 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-27 03:42:16,786 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:42:33,892 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-27 03:42:33,893 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-27 03:42:44,167 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.] with root cause
+java.lang.IllegalArgumentException: Bu e-posta adresi zaten kullanımda.
+	at com.example.service.impl.UserIMPL.addUser(UserIMPL.java:32)
+	at com.example.controller.UserController.saveUser(UserController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-27 03:42:48,687 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-27 03:42:48,689 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:43:10,674 INFO c.e.c.FlatController [http-nio-8080-exec-3] Flat ID: 7olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-27 03:43:12,204 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-27 03:43:12,206 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-27 03:43:13,881 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 2 için daireler bulundu.
+2024-03-27 03:43:15,188 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-27 03:43:16,944 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-27 03:43:16,945 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-27 03:43:17,735 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-27 03:44:21,619 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-27 03:44:21,620 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-27 03:44:21,820 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-27 03:44:21,822 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-27 03:44:23,715 INFO c.e.c.FlatController [http-nio-8080-exec-7] Daire bulundu ID: 1
+2024-03-27 03:44:25,881 INFO c.e.c.FlatController [http-nio-8080-exec-2] Flat with ID 1 updated successfully
+2024-03-27 03:44:27,542 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-27 03:44:27,543 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:24,439 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-27 03:45:24,442 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:26,275 INFO c.e.c.FlatController [http-nio-8080-exec-6] Daire bulundu ID: 1
+2024-03-27 03:45:29,949 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-27 03:45:29,949 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:33,572 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-27 03:45:33,573 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:37,002 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:37,319 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-27 03:45:39,990 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:40,745 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-27 03:45:42,283 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:44,206 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-27 03:45:44,207 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-27 03:45:45,479 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-27 03:47:12,103 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-27 03:47:12,104 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-27 03:47:14,335 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:47:27,660 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-27 03:47:27,662 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-27 03:47:28,222 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-27 03:47:28,224 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-27 03:47:28,660 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 2 için daireler bulundu.
+2024-03-27 03:47:29,573 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:06,714 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 2 için daireler bulundu.
+2024-03-27 03:48:06,715 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:07,267 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 2 için daireler bulundu.
+2024-03-27 03:48:07,268 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:08,282 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-27 03:48:08,283 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:10,914 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:17,797 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daireler bulundu.
+2024-03-27 03:48:17,799 INFO c.e.c.FlatController [http-nio-8080-exec-8] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:23,223 INFO c.e.c.FlatController [http-nio-8080-exec-7] Sayfa 2 için daireler bulundu.
+2024-03-27 03:48:23,225 INFO c.e.c.FlatController [http-nio-8080-exec-9] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:24,562 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-27 03:48:24,563 INFO c.e.c.FlatController [http-nio-8080-exec-10] Sayfa 1 için daireler bulundu.
+2024-03-27 03:48:25,290 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:17,353 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-27 03:49:17,355 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:17,991 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 2 için daireler bulundu.
+2024-03-27 03:49:17,992 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:18,294 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 12656 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 03:49:18,294 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 03:49:18,294 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 03:49:18,999 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-27 03:49:21,520 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 12656 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 03:49:21,520 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 03:49:21,521 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 03:49:22,876 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.394 seconds (process running for 3452.34)
+2024-03-27 03:49:28,714 WARN c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:49:28,714 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:47,308 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:47,309 WARN c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:49:47,862 INFO c.e.c.FlatController [http-nio-8080-exec-6] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:47,862 WARN c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 2 için daire bulunamadı.
+2024-03-27 03:49:48,121 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 12656 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 03:49:48,122 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 03:49:48,122 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "test"
+2024-03-27 03:49:49,363 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.291 seconds (process running for 3478.827)
+2024-03-27 03:49:49,373 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 2 için daireler bulundu.
+2024-03-27 03:49:49,380 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 1 için daireler bulundu.
+2024-03-27 03:49:50,054 INFO c.e.c.FlatController [http-nio-8080-exec-3] Sayfa 2 için daireler bulundu.
+2024-03-27 03:49:50,058 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 1 için daireler bulundu.
+2024-03-27 04:10:32,067 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 18176 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-27 04:10:32,069 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 04:10:32,070 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-27 04:10:35,718 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 3.981 seconds (process running for 4.999)

@@ -1,0 +1,13 @@
+
+<div *ngIf="!loggedIn">
+  
+<li class="nav-item">
+      <a routerLink="login" routerLinkActive="active" class="nav-link">Giriş yap</a>
+</li>
+
+</div>
+<div *ngIf="loggedIn">
+<li class="nav-item">
+    <button (click)="logout()" class="btn-danger mt-2">Logout </button>
+</li>
+</div>

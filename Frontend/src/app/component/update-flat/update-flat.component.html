@@ -1,0 +1,57 @@
+<div class="col-md-6 offset-md-3">
+    <h3>Daire Güncelle</h3>
+    <form (ngSubmit)="onSubmit()" class="mt-3">
+        
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="title" [(ngModel)]="flat.title" name="title">
+        </div>
+        
+        <div class="mb-3">
+            <label for="room" class="form-label">Room</label>
+            <input type="text" class="form-control" id="room" [(ngModel)]="flat.room" name="room">
+        </div>
+        
+        <div class="mb-3">
+            <label for="floor" class="form-label">Floor</label>
+            <input type="text" class="form-control" id="floor" [(ngModel)]="flat.floor" name="floor">
+        </div>
+        
+        <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" [(ngModel)]="flat.age" name="age">
+        </div>
+        
+        <div class="mb-3">
+            <label for="balcony" class="form-label">Balcony</label>
+            <input type="text" class="form-control" id="balcony" [(ngModel)]="flat.balcony" name="balcony">
+        </div>
+        
+        <div class="mb-3">
+            <label for="heating" class="form-label">Heating</label>
+            <input type="text" class="form-control" id="heating" [(ngModel)]="flat.heating" name="heating">
+        </div>
+        
+        <div class="mb-3">
+            <label for="otopark" class="form-label">Otopark</label>
+            <input type="text" class="form-control" id="otopark" [(ngModel)]="flat.otopark" name="otopark">
+        </div>
+        
+        <div class="mb-3">
+            <label for="m2" class="form-label">M2</label>
+            <input type="number" class="form-control" id="m2" [(ngModel)]="flat.m2" name="m2">
+        </div>
+        
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" class="form-control" id="price" [(ngModel)]="flat.price" name="price">
+        </div>
+        
+        <div class="mb-3">
+            <label for="tapu" class="form-label">Tapu</label>
+            <input type="text" class="form-control" id="tapu" [(ngModel)]="flat.tapu" name="tapu">
+        </div>
+        
+        <button class="btn btn-success" type="submit">Gönder</button>
+    </form>
+</div>

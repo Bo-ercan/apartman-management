@@ -1,0 +1,298 @@
+2024-03-19 18:43:00,756 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:43:00,759 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:43:00,761 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:43:04,095 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 3.682 seconds (process running for 4.521)
+2024-03-19 18:43:06,940 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:07,836 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:08,073 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:08,218 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:08,382 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:08,547 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:08,699 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:08,900 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:10,247 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:10,426 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:10,589 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:10,741 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:10,904 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:11,102 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:11,270 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:11,438 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:11,600 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:11,774 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:11,961 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:12,131 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:12,313 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:12,484 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:12,662 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:12,849 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:13,039 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:13,197 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:13,367 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:13,527 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:13,711 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:13,892 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:14,051 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:14,230 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:14,417 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:14,620 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:14,758 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:15,062 WARN c.e.c.flatController [http-nio-8080-exec-7] Daire bulunamadi ID: 39
+2024-03-19 18:43:15,514 WARN c.e.c.flatController [http-nio-8080-exec-8] Daire bulunamadi ID: 39
+2024-03-19 18:43:15,691 WARN c.e.c.flatController [http-nio-8080-exec-6] Daire bulunamadi ID: 39
+2024-03-19 18:43:16,507 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:16,847 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:17,021 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:17,199 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:17,363 INFO c.e.c.flatController [http-nio-8080-exec-3] /flats adresine get request gönderilmiştir.
+2024-03-19 18:43:18,012 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 28
+2024-03-19 18:43:18,296 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 28
+2024-03-19 18:43:18,496 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 28
+2024-03-19 18:43:18,667 INFO c.e.c.flatController [http-nio-8080-exec-8] Daire bulundu ID: 28
+2024-03-19 18:43:18,822 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 28
+2024-03-19 18:43:18,999 INFO c.e.c.flatController [http-nio-8080-exec-9] Daire bulundu ID: 28
+2024-03-19 18:43:19,181 INFO c.e.c.flatController [http-nio-8080-exec-10] Daire bulundu ID: 28
+2024-03-19 18:43:19,373 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire bulundu ID: 28
+2024-03-19 18:43:19,522 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 28
+2024-03-19 18:43:19,690 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 28
+2024-03-19 18:43:19,876 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 28
+2024-03-19 18:43:20,059 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 28
+2024-03-19 18:43:20,277 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 28
+2024-03-19 18:43:20,478 INFO c.e.c.flatController [http-nio-8080-exec-8] Daire bulundu ID: 28
+2024-03-19 18:43:20,690 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 28
+2024-03-19 18:43:20,918 INFO c.e.c.flatController [http-nio-8080-exec-9] Daire bulundu ID: 28
+2024-03-19 18:43:21,098 INFO c.e.c.flatController [http-nio-8080-exec-10] Daire bulundu ID: 28
+2024-03-19 18:43:21,328 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire bulundu ID: 28
+2024-03-19 18:43:21,534 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 28
+2024-03-19 18:43:21,697 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 28
+2024-03-19 18:43:21,878 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 28
+2024-03-19 18:43:22,057 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 28
+2024-03-19 18:43:22,226 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 28
+2024-03-19 18:43:23,361 INFO c.e.c.flatController [http-nio-8080-exec-8] Daire bulundu ID: 28
+2024-03-19 18:43:23,536 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 28
+2024-03-19 18:43:24,533 INFO c.e.c.flatController [http-nio-8080-exec-9] Daire bulundu ID: 28
+2024-03-19 18:43:24,740 INFO c.e.c.flatController [http-nio-8080-exec-10] Daire bulundu ID: 28
+2024-03-19 18:43:24,885 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire bulundu ID: 28
+2024-03-19 18:43:25,044 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 28
+2024-03-19 18:43:25,232 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 28
+2024-03-19 18:43:25,420 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 28
+2024-03-19 18:43:25,619 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 28
+2024-03-19 18:43:25,810 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 28
+2024-03-19 18:43:26,003 INFO c.e.c.flatController [http-nio-8080-exec-8] Daire bulundu ID: 28
+2024-03-19 18:43:26,177 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 28
+2024-03-19 18:43:26,336 INFO c.e.c.flatController [http-nio-8080-exec-9] Daire bulundu ID: 28
+2024-03-19 18:43:26,929 INFO c.e.c.flatController [http-nio-8080-exec-10] Daire bulundu ID: 28
+2024-03-19 18:43:27,099 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire bulundu ID: 28
+2024-03-19 18:43:27,262 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 28
+2024-03-19 18:43:28,076 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 28
+2024-03-19 18:43:28,559 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire bulundu ID: 28
+2024-03-19 18:43:28,728 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 28
+2024-03-19 18:43:28,925 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 28
+2024-03-19 18:44:05,262 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:44:05,263 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:44:05,263 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:44:05,792 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.561 seconds (process running for 66.219)
+2024-03-19 18:46:31,737 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:46:31,737 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:46:31,738 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:46:32,293 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.609 seconds (process running for 212.72)
+2024-03-19 18:46:33,808 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:46:33,808 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:46:33,808 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:46:34,367 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.591 seconds (process running for 214.793)
+2024-03-19 18:46:36,934 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 7640 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:46:36,936 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:46:36,936 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:46:41,508 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 4.814 seconds (process running for 6.206)
+2024-03-19 18:50:56,369 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:50:56,369 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:50:56,369 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:50:56,822 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.475 seconds (process running for 477.248)
+2024-03-19 18:51:14,753 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:51:14,753 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:51:14,753 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:51:15,324 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.604 seconds (process running for 495.751)
+2024-03-19 18:51:33,283 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:51:33,284 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:51:33,284 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:51:33,808 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.55 seconds (process running for 514.236)
+2024-03-19 18:51:58,996 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:51:58,996 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:51:58,997 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:51:59,479 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.511 seconds (process running for 539.906)
+2024-03-19 18:56:40,774 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:56:40,774 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:56:40,774 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:56:41,377 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.637 seconds (process running for 821.803)
+2024-03-19 18:57:22,021 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:57:22,021 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:57:22,021 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:57:22,680 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.704 seconds (process running for 863.107)
+2024-03-19 18:57:48,832 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:57:48,832 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:57:48,832 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:57:49,318 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.51 seconds (process running for 889.745)
+2024-03-19 18:59:31,539 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:59:31,540 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:59:31,540 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:59:32,198 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeService in com.example.controller.EmployeeController required a bean of type 'com.example.service.EmployeeService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.EmployeeService' in your configuration.
+
+2024-03-19 18:59:33,676 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:59:33,676 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:59:33,676 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:59:34,114 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emailSenderService' defined in file [C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes\com\example\service\EmailSenderService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:577)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.ApartmanProjectApplication.main(ApartmanProjectApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.service.EmailSenderService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f5d9daf]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:757)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:436)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:417)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:376)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:353)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1085)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:574)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/mail/javamail/JavaMailSender
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3329)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2403)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:752)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.mail.javamail.JavaMailSender
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:488)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2024-03-19 18:59:39,668 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 18:59:39,669 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 18:59:39,669 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 18:59:40,142 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emailSenderService' defined in file [C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes\com\example\service\EmailSenderService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:577)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.ApartmanProjectApplication.main(ApartmanProjectApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.service.EmailSenderService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2fe1943e]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:757)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:436)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:417)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:376)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:353)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1085)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:574)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/mail/javamail/JavaMailSender
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3329)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2403)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:752)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.mail.javamail.JavaMailSender
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:488)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2024-03-19 19:00:01,132 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14396 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 19:00:01,132 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 19:00:01,132 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:00:01,714 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.603 seconds (process running for 1022.141)
+2024-03-19 19:01:49,017 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 25364 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 19:01:49,018 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 19:01:49,019 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:01:54,191 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.41 seconds (process running for 6.616)
+2024-03-19 19:10:50,597 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 21284 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 19:10:50,598 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 19:10:50,599 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:10:54,192 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 3.952 seconds (process running for 4.775)
+2024-03-19 19:10:54,423 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 19:10:54,706 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 19:11:47,024 WARN c.e.c.flatController [http-nio-8080-exec-4] Daire bulunamadi ID: 40
+2024-03-19 19:11:49,006 WARN c.e.c.flatController [http-nio-8080-exec-5] Daire bulunamadi ID: 41
+2024-03-19 19:11:50,777 WARN c.e.c.flatController [http-nio-8080-exec-6] Daire bulunamadi ID: 38
+2024-03-19 19:11:53,400 INFO c.e.c.flatController [http-nio-8080-exec-7] Daire bulundu ID: 37
+2024-03-19 19:12:19,053 INFO c.e.c.flatController [http-nio-8080-exec-1] Flat ID: 40olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-19 19:15:13,289 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 21284 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 19:15:13,289 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 19:15:13,289 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:15:14,010 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.759 seconds (process running for 264.594)
+2024-03-19 19:15:17,232 INFO c.e.c.flatController [http-nio-8080-exec-2] Flat ID: 41olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-19 19:35:10,204 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 21284 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-19 19:35:10,204 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-19 19:35:10,204 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:35:10,801 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 0.63 seconds (process running for 1461.384)
+2024-03-19 19:35:14,173 INFO c.e.c.flatController [http-nio-8080-exec-1] Daire bulundu ID: 28
+2024-03-19 19:35:16,655 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 28
+2024-03-19 19:35:24,861 INFO c.e.c.flatController [http-nio-8080-exec-8] Flat with ID 28 updated successfully
+2024-03-19 19:35:26,413 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-19 19:36:42,128 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire bulundu ID: 41
+2024-03-19 19:36:43,781 INFO c.e.c.flatController [http-nio-8080-exec-6] Daire bulundu ID: 41
+2024-03-19 19:36:50,688 INFO c.e.c.flatController [http-nio-8080-exec-4] Flat with ID 41 updated successfully
+2024-03-19 19:36:52,470 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-19 19:37:15,256 INFO c.e.c.flatController [http-nio-8080-exec-3] Daire bulundu ID: 28
+2024-03-19 19:37:33,654 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-19 19:37:34,890 INFO c.e.c.flatController [http-nio-8080-exec-8] Daire bulundu ID: 41
+2024-03-19 19:37:37,682 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-19 19:37:48,099 INFO c.e.c.flatController [http-nio-8080-exec-5] Daire ID: 35 başarıyla silindi.
+2024-03-19 19:37:49,380 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-19 19:38:05,926 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.

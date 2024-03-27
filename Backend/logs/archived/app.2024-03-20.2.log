@@ -1,0 +1,259 @@
+2024-03-20 13:18:01,191 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 15796 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 13:18:01,196 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-20 13:18:01,198 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 13:18:04,847 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:291)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:978)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.ApartmanProjectApplication.main(ApartmanProjectApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	... 16 common frames omitted
+2024-03-20 13:20:02,595 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 10048 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 13:20:02,597 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-20 13:20:02,598 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 13:20:06,300 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:291)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:978)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.ApartmanProjectApplication.main(ApartmanProjectApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	... 16 common frames omitted
+2024-03-20 13:32:35,918 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 23076 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 13:32:35,919 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 13:32:35,919 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 13:32:39,573 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 3.97 seconds (process running for 5.271)
+2024-03-20 14:58:39,357 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 23076 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 14:58:39,357 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 14:58:39,357 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 14:58:40,488 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 1.172 seconds (process running for 5166.186)
+2024-03-20 15:08:18,654 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-20 15:09:04,018 INFO c.e.c.flatController [http-nio-8080-exec-3] Flat ID: 28olan daire başarıyla veritabanına kaydedilmiştir.
+2024-03-20 15:17:38,444 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 7428 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 15:17:38,446 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 15:17:38,446 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 15:17:43,946 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.736 seconds (process running for 7.046)
+2024-03-20 16:19:40,340 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 27636 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:19:40,342 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:19:40,343 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:19:44,105 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.084 seconds (process running for 4.981)
+2024-03-20 16:20:11,220 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 5852 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:20:11,221 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:20:11,222 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:20:15,201 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.304 seconds (process running for 5.208)
+2024-03-20 16:20:31,257 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-20 16:22:04,782 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 14176 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:22:04,784 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:22:04,785 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:22:08,752 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.328 seconds (process running for 5.171)
+2024-03-20 16:22:09,030 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-20 16:22:09,437 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-20 16:25:04,723 INFO c.e.c.flatController [http-nio-8080-exec-7] /flats adresine get request gönderilmiştir.
+2024-03-20 16:25:53,858 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-20 16:25:56,473 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-20 16:39:04,602 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 20028 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:39:04,604 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:39:04,604 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:39:09,972 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.617 seconds (process running for 6.954)
+2024-03-20 16:47:25,370 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 25496 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:47:25,372 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:47:25,373 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:47:31,189 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 6.04 seconds (process running for 7.444)
+2024-03-20 16:48:40,912 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 20204 (C:\Users\olmez\Desktop\ApartmanProject\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:48:40,914 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:48:40,914 INFO c.e.ApartmanProjectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:48:44,599 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 4.012 seconds (process running for 4.889)
+2024-03-20 16:49:58,628 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:03,924 INFO c.e.c.flatController [http-nio-8080-exec-2] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:11,455 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:13,186 INFO c.e.c.flatController [http-nio-8080-exec-1] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:15,436 INFO c.e.c.flatController [http-nio-8080-exec-4] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:16,660 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:21,477 INFO c.e.c.flatController [http-nio-8080-exec-9] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:28,816 INFO c.e.c.flatController [http-nio-8080-exec-5] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:41,201 INFO c.e.c.flatController [http-nio-8080-exec-8] /flats adresine get request gönderilmiştir.
+2024-03-20 16:50:55,646 INFO c.e.c.flatController [http-nio-8080-exec-2] Daire bulundu ID: 28
+2024-03-20 16:50:57,019 INFO c.e.c.flatController [http-nio-8080-exec-10] /flats adresine get request gönderilmiştir.
+2024-03-20 16:51:01,914 INFO c.e.c.flatController [http-nio-8080-exec-4] Daire ID: 28 başarıyla silindi.
+2024-03-20 16:51:03,430 INFO c.e.c.flatController [http-nio-8080-exec-6] /flats adresine get request gönderilmiştir.
+2024-03-20 16:55:10,773 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 13636 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:55:10,775 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:55:10,776 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:55:16,269 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.722 seconds (process running for 7.081)
+2024-03-20 16:55:34,248 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 26244 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:55:34,249 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:55:34,249 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:55:39,585 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.564 seconds (process running for 6.933)
+2024-03-20 16:58:54,520 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 22016 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 16:58:54,522 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 16:58:54,523 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 16:58:59,957 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.675 seconds (process running for 7.082)
+2024-03-20 17:11:05,838 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 29152 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:11:05,839 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:11:05,840 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:11:11,167 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.544 seconds (process running for 6.9)
+2024-03-20 17:28:57,746 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 30640 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:28:57,748 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:28:57,748 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:29:03,045 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.53 seconds (process running for 6.851)
+2024-03-20 17:30:01,348 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 30472 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:30:01,349 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:30:01,350 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:30:06,516 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.396 seconds (process running for 6.761)
+2024-03-20 17:30:19,321 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 12860 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:30:19,323 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:30:19,323 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:30:24,439 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.352 seconds (process running for 6.704)
+2024-03-20 17:31:19,602 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 22324 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:31:19,603 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:31:19,604 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:31:24,960 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.574 seconds (process running for 6.914)
+2024-03-20 17:32:15,386 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 10500 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:32:15,389 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:32:15,391 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:32:20,610 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.461 seconds (process running for 6.775)
+2024-03-20 17:34:38,205 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 26196 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:34:38,206 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:34:38,207 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:34:43,412 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.429 seconds (process running for 6.75)
+2024-03-20 17:50:17,658 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 13756 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:50:17,660 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:50:17,660 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:50:22,961 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.552 seconds (process running for 6.895)
+2024-03-20 17:50:50,749 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 24964 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 17:50:50,750 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 17:50:50,751 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 17:50:55,798 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.283 seconds (process running for 6.631)
+2024-03-20 18:09:55,806 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 18228 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:09:55,811 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:09:55,812 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:10:00,973 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.388 seconds (process running for 6.814)
+2024-03-20 18:12:53,264 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 24616 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:12:53,266 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:12:53,268 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:12:58,264 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.233 seconds (process running for 6.567)
+2024-03-20 18:13:32,093 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 3908 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:13:32,094 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:13:32,095 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:13:38,231 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 6.381 seconds (process running for 8.451)
+2024-03-20 18:14:06,833 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 1208 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:14:06,837 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:14:06,838 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:14:12,147 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.572 seconds (process running for 6.985)
+2024-03-20 18:14:34,365 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 5252 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:14:34,366 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:14:34,367 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:14:39,711 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.56 seconds (process running for 6.896)
+2024-03-20 18:18:39,892 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 24704 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:18:39,893 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:18:39,894 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:18:45,013 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.372 seconds (process running for 6.71)
+2024-03-20 18:19:05,832 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 16364 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:19:05,834 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:19:05,835 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:19:10,942 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.333 seconds (process running for 6.672)
+2024-03-20 18:24:13,480 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 8820 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:24:13,485 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:24:13,485 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:24:18,649 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.385 seconds (process running for 6.733)
+2024-03-20 18:24:34,508 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 17208 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:24:34,510 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:24:34,510 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:24:39,628 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 5.335 seconds (process running for 6.656)
+2024-03-20 18:25:29,569 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 25592 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:25:29,573 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:25:29,573 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:25:32,729 INFO c.e.A.ApartmanProjectApplicationTests [main] Starting ApartmanProjectApplicationTests using Java 18.0.2.1 with PID 22836 (started by olmez in C:\Users\olmez\Desktop\ApartmanProject\Backend)
+2024-03-20 18:25:32,732 DEBUG c.e.A.ApartmanProjectApplicationTests [main] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-20 18:25:32,733 INFO c.e.A.ApartmanProjectApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 18:25:36,606 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 7.273 seconds (process running for 8.707)
+2024-03-20 18:25:39,481 INFO c.e.A.ApartmanProjectApplicationTests [main] Started ApartmanProjectApplicationTests in 7.093 seconds (process running for 8.79)

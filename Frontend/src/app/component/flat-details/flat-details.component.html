@@ -1,0 +1,42 @@
+<h3> Daire detayları</h3>
+<div>
+    <div class="image-container">
+        <img src="{{flat.imgUrL}}" alt="Flat Image">
+    </div>
+
+    <div>
+        <label> <b> Daire adı: </b></label> {{flat.title}}
+    </div>
+    <div>
+        <label> <b> Oda sayisi: </b></label> {{flat.room}}
+    </div>
+    <div>
+        <label> <b> Bulunduğu kat: </b></label> {{flat.floor}}
+    </div>
+    <div>
+        <label> <b> Bina yaşı: </b></label> {{flat.age}}
+    </div>
+    <div>
+        <label> <b> Balkon: </b></label> {{flat.balcony}}
+    </div>
+    <div>
+        <label> <b> Isıtma tipi: </b></label> {{flat.heating}}
+    </div>
+    <div>
+        <label> <b> Otopark: </b></label> {{flat.otopark}}
+    </div>
+    <div>
+        <label> <b> M2: </b></label> {{flat.m2}}
+    </div>
+    <div>
+        <label> <b> Fiyat: </b></label> {{flat.price}} Tl
+    </div>
+    <div>
+        <label> <b> Tapu: </b></label> {{flat.tapu}}
+    </div>
+</div>
+
+<div class="container">
+    <button (click)="updateFlat(flat.id)" class="btn btn-info ml-2">Güncelle</button>
+    <button (click)="deleteFlat(flat.id)" class="btn btn-danger ml-2">Sil</button>
+</div>

@@ -1,0 +1,74 @@
+<div class="col-6 offset-3">
+    <h3>Daire Oluştur</h3>
+    <form (ngSubmit)="onSubmit()" novalidate class="validated-form" #flatForm="ngForm">
+        <div class="mb-3">
+            <label>Title</label>
+            <input type="text" class="form-control" required minlength="1" id="title" [(ngModel)]="flat.title"
+                name="title" #title="ngModel">
+            <div *ngIf="title.invalid && (title.dirty || title.touched)" class="invalid-feedback">
+                <div *ngIf="title.errors?.['required']">Title is required.</div>
+                <div *ngIf="title.errors?.['minlength']">Title must be at least 1 character long.</div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label>Room</label>
+            <select class="form-control" id="room" name="room" [(ngModel)]="flat.room">
+                <option value="1+1">1+1</option>
+                <option value="2+1">2+1</option>
+                <option value="3+1">3+1</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label>Bulunduğu kat</label>
+            <select class="form-control" id="floor" name="floor" [(ngModel)]="flat.floor">
+                <option *ngFor="let floorOption of floorOptions" [value]="floorOption">{{ floorOption }}</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label>Bina yaşı</label>
+            <select class="form-control" id="age" name="age" [(ngModel)]="flat.age">
+                <option *ngFor="let ageOption of ageOptions" [value]="ageOption">{{ ageOption }}</option>
+            </select>
+        </div>
+        
+        <div class="mb-3">
+            <label>Balkon</label>
+            <select class="form-control" id="balcony" name="balcony" [(ngModel)]="flat.balcony">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        
+        <div class="mb-3">
+            <label>Isıtma tipi</label>
+            <select class="form-control" id="heating" name="heating" [(ngModel)]="flat.heating">
+                <option *ngFor="let heatingOption of heatingOptions" [value]="heatingOption">{{ heatingOption }}</option>
+            </select>
+        </div>
+        
+        <div class="mb-3">
+            <label>Otopark</label>
+            <input type="text" class="form-control" id="otopark" [(ngModel)]="flat.otopark" name="otopark">
+        </div>
+        
+        <div class="mb-3">
+            <label>M2</label>
+            <input type="number" class="form-control" id="m2" [(ngModel)]="flat.m2" name="m2">
+        </div>
+        
+        <div class="mb-3">
+            <label>Price</label>
+            <input type="number" class="form-control" id="price" [(ngModel)]="flat.price" name="price">
+        </div>
+        
+        <div class="mb-3">
+            <label>Tapu</label>
+            <input type="text" class="form-control" id="tapu" [(ngModel)]="flat.tapu" name="tapu">
+        </div>
+        
+        <button class="btn btn-success" type="submit" [disabled]="!flatForm.valid">Gönder</button>
+    </form>
+</div>

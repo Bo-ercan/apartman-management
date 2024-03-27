@@ -1,0 +1,52 @@
+<h2 class="text-center">Daire Listesi</h2>
+    
+<div *ngIf="!loggedIn" class="d-flex justify-content-center mt-3">
+    <button class="btn btn-info me-2" (click)="navigateTo('login')">Giriş yap</button>
+    <button class="btn btn-info" (click)="navigateTo('register')">Kayıt ol</button>
+</div>
+
+<div class="table-responsive mt-3" style="height: 350px;">
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+                <th class="text-center">Başlık</th>
+                <th class="text-center">Kat</th>
+                <th class="text-center">M2</th>
+                <th class="text-center">Fiyat</th>
+                <th class="text-center">Bina yaşı</th>          
+                <th class="text-center">
+                    <button *ngIf="loggedIn" (click)="redirectToRoute('create-flat')" class="btn btn-success">Daire ekle</button>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let flat of flats">
+                <td class="text-center">{{flat.title}}</td>
+                <td class="text-center">{{flat.floor}}</td>
+                <td class="text-center">{{flat.m2}}</td>
+                <td class="text-center">{{flat.price}}</td>
+                <td class="text-center">{{flat.age}}</td>
+                <td class="text-center">
+                    <button *ngIf="loggedIn" (click)="flatDetails(flat.id)" class="btn btn-success me-2">Görüntüle</button>
+                    <button *ngIf="loggedIn" (click)="updateFlat(flat.id)" class="btn btn-info me-2">Güncelle</button>
+                    <button *ngIf="loggedIn" (click)="deleteFlat(flat.id)" class="btn btn-danger">Sil</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="d-flex justify-content-center mt-3">
+    <span class="btn btn-success me-2">{{currentPage}}</span>
+    <button (click)="ilkSayfayaGit()" class="btn btn-primary me-2">&lt;&lt;</button>
+    <button (click)="azalt()" class="btn btn-primary me-2">&lt;</button>
+    <div class="d-inline-block">
+        <button *ngFor="let button of pageButtons" (click)="belirliSayfayaGit(button)" class="btn btn-primary me-2">{{ button }}</button>
+    </div>
+    <button (click)="artir()" class="btn btn-primary me-2">&gt;</button>
+    <button (click)="sonSayfayaGit()" class="btn btn-primary">&gt;&gt;</button>
+</div>
+  
+<div class="text-center mt-3" *ngIf="loggedIn">
+    <button (click)="logout()" class="btn btn-danger">Çıkış Yap</button>
+</div>

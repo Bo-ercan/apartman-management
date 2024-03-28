@@ -130,7 +130,7 @@ navigateTo(url : string) {
 }
 
 redirectToRoute(route: string): void {
-    this.router.navigateByUrl('/login');
+    this.router.navigateByUrl(route); // Kullanıcı giriş yapmışsa belirtilen rotaya yönlendirilir
 }
 
 }

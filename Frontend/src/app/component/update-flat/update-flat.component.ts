@@ -18,6 +18,7 @@ export class UpdateFlatComponent implements OnInit{
               private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    //Activated Route servisini kullanarak url'den id değişkenini alır
     this.id = this.route.snapshot.params['id'];
     this.flatService.getFlatById(this.id)
         .subscribe({
@@ -40,11 +41,11 @@ export class UpdateFlatComponent implements OnInit{
       .subscribe({
         next: (data) => console.log(data),
         error: (error) => console.log(error),
-        complete: () => this.goToFlatList()
+        complete: () => this.returnToUpdatedFlat(this.id)
       })
   }
 
-  goToFlatList(){
-    this.router.navigate(['/flats-pagination'])};
+  returnToUpdatedFlat(id:number){
+    this.router.navigate(['/flat-details/',id])};
   
 }

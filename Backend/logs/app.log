@@ -340,3 +340,36 @@ Consider defining a bean of type 'com.example.service.FlatService' in your confi
 2024-03-27 04:10:32,069 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
 2024-03-27 04:10:32,070 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
 2024-03-27 04:10:35,718 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 3.981 seconds (process running for 4.999)
+2024-03-27 14:53:43,990 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 20072 (C:\Users\olmez\Desktop\ApartmanProject2\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject2\Backend)
+2024-03-27 14:53:43,992 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 14:53:43,993 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-27 14:53:48,848 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 5.313 seconds (process running for 7.436)
+2024-03-27 14:54:03,826 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 20072 (C:\Users\olmez\Desktop\ApartmanProject2\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject2\Backend)
+2024-03-27 14:54:03,827 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 14:54:03,827 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-27 14:54:05,160 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field flatService in com.example.controller.FlatController required a bean of type 'com.example.service.FlatService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.FlatService' in your configuration.
+
+2024-03-27 14:54:06,672 INFO c.e.ApartmanProjectApplication [restartedMain] Starting ApartmanProjectApplication using Java 18.0.2.1 with PID 20072 (C:\Users\olmez\Desktop\ApartmanProject2\Backend\target\classes started by olmez in C:\Users\olmez\Desktop\ApartmanProject2\Backend)
+2024-03-27 14:54:06,673 DEBUG c.e.ApartmanProjectApplication [restartedMain] Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-03-27 14:54:06,673 INFO c.e.ApartmanProjectApplication [restartedMain] The following 1 profile is active: "dev"
+2024-03-27 14:54:08,845 INFO c.e.ApartmanProjectApplication [restartedMain] Started ApartmanProjectApplication in 2.221 seconds (process running for 27.433)
+2024-03-27 14:54:09,283 INFO c.e.c.FlatController [http-nio-8080-exec-2] Sayfa 2 için daireler bulundu.
+2024-03-27 14:54:09,287 INFO c.e.c.FlatController [http-nio-8080-exec-1] Sayfa 1 için daireler bulundu.
+2024-03-27 14:54:20,354 INFO c.e.c.FlatController [http-nio-8080-exec-4] Sayfa 2 için daireler bulundu.
+2024-03-27 14:54:20,356 INFO c.e.c.FlatController [http-nio-8080-exec-5] Sayfa 1 için daireler bulundu.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: '3.5'
 
 services:
@@ -10,3 +11,17 @@ services:
       - "4201:4200"
     command: >
       sh -c "npm start"
+=======
+version: '3.5'
+
+services:
+  angular-service:
+    container_name: angular-container1
+    build: ./
+    volumes:
+      - './:/usr/src/app'
+    ports:
+      - "4201:4200"
+    command: >
+      sh -c "npm start"
+>>>>>>> 905112d745880ec986d1c64793b831bae9ea95ce
